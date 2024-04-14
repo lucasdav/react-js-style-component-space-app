@@ -1,6 +1,5 @@
-import styled from "styled-components"
+import { styled } from "styled-components"
 import CampoTexto from "../CampoTexto"
-
 
 const HeaderEstilizado = styled.header`
     padding: 60px 0;
@@ -12,13 +11,10 @@ const HeaderEstilizado = styled.header`
 `
 
 const Cabecalho = () => {
-
-    return (
-        <HeaderEstilizado>
-            <img src="/imagens/logo.png" alt="" />
-            <CampoTexto/>
-        </HeaderEstilizado>
-    )
+    return (<HeaderEstilizado>
+        <img src="/imagens/logo.png" alt="" />
+        <CampoTexto />
+    </HeaderEstilizado>)
 }
 
 export default Cabecalho
